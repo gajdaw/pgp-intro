@@ -60,3 +60,7 @@ Common options:
 
     gpg --decrypt --output dest_filename src_filename
 
+## 11. Trust the key
+
+    gpg --edit-key EMAIL_ADDRESS
+    gpg> trust
