@@ -1,4 +1,4 @@
-# pgp intro
+# gpg intro
 
 ## 1. Links
 
@@ -9,12 +9,14 @@
 * https://blog.ghostinthemachines.com/2015/03/01/how-to-use-gpg-command-line/
 * https://statistics.berkeley.edu/computing/encrypt
 * https://unix.stackexchange.com/questions/481939/how-to-export-a-gpg-private-key-and-public-key-to-a-file
+* https://stackoverflow.com/questions/13116457/how-to-make-auto-trust-gpg-public-key
 
 ## 2. Installation
 
     brew install gnupg
 
 Common options:
+
     --armor    - ASCII format
     --output   - output filename
 
@@ -64,3 +66,4 @@ Common options:
 
     gpg --edit-key EMAIL_ADDRESS
     gpg> trust
+    # select option 5
