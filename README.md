@@ -1,7 +1,17 @@
 # gpg intro
 
+```
+PGP - Pretty_Good_Privacy
+gpg - command line tool name
+```
+
+Both abbreviations are ok:
+- `gpg`
+- `pgp`
+
 ## 1. Links
 
+* https://pl.wikipedia.org/wiki/Pretty_Good_Privacy
 * https://formulae.brew.sh/formula/gnupg
 * https://www.gnupg.org/gph/en/manual.html
 * https://www.gnupg.org/gph/en/manual/x110.html
@@ -26,6 +36,9 @@ Common options:
 
     gpg --list-keys
     gpg --list-secret-keys
+
+    gpg --list-keys --keyid-format LONG
+    gpg --list-secret-keys --keyid-format LONG
 
 ### 3.2. Generate keys
 
